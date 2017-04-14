@@ -1,0 +1,85 @@
+body{
+  display: block;
+  margin:0;
+  padding: 0;
+
+}
+ul, li{
+  list-style: none;
+  margin:0 ;
+  padding: 0;
+  }
+  a{
+    text-decoration: none;
+
+  }
+  .Navigation{
+    /*makes the width of nav bar 960 then if you make it smaller it will not move the tabs until 960 px*/
+    width: 960px;
+/*makes the tabs centered*/
+    margin: auto;
+  }
+
+  #mainheader{
+
+    background: #333;
+    /*creates the background*/
+    background: rgba(0, 0, 0, 0.8);
+    /*close enought height to the apple bar*/
+    height: 44px;
+      }
+
+      /*puts the menu items in the straight line*/
+#menulist li.menuItems{
+  /*gets all the bar tabs to the same line*/
+  float:left;
+  /*spaces out the tabs better*/
+  width: 10%;}
+  /*picks the menu items and the links*/
+#menulist li.menuItems a{
+  /*turns the font to helvetics*/
+  font-family: "Myriad Set Pro", "Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 200;
+  /*changes font size to look normal em???*/
+
+  font-size: .9em;
+  padding: 0px 15px;
+  display: block;
+  color: #fff;
+  /*since height is 44px this will make nav bars in the center*/
+  line-height: 44px;
+  /*affects the words if they change spacing*/
+  letter-spacing: normal;
+}
+#applelogo{
+  /*createst the apple logo withput using the fa thing*/
+background: url("https://store.storeimages.cdn-apple.com/4974/store.apple.com/shop/shop/rs-external/rel/us/ac-globalnav-dist/images/globalnav/apple/image_large.svg") center no-repeat ;
+/*helps contain the logo in header*/
+background-size: contain;
+height: 44px;
+width:44px;
+/*makes apple logo dissappear*/
+text-indent: -9999px;
+
+display: block;
+}
+#search{
+  background: url("https://store.storeimages.cdn-apple.com/4974/store.apple.com/shop/shop/rs-external/rel/us/ac-globalnav-dist/images/globalnav/search/image_large.svg")center no-repeat;
+  background-size: contain;
+  height: 44px;
+  width:44px;
+  /*makes apple logo dissappear*/
+  text-indent: -9999px;
+
+  display: block;
+}
+#bag{
+  background: url("https://store.storeimages.cdn-apple.com/4974/store.apple.com/shop/shop/rs-external/rel/us/ac-globalnav-dist/images/globalnav/bag/image_large.svg") center no-repeat;
+  background-size: contain;
+  height: 44px;
+  width:44px;
+  /*makes apple logo dissappear*/
+  text-indent: -9999px;
+
+  display: block;
+}
